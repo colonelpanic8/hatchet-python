@@ -1,3 +1,10 @@
+import importlib
+import google
+
+# This avoids issues with spawn multiprocessing
+importlib.reload(google)
+
+
 import asyncio
 import logging
 import signal
