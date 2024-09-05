@@ -1,3 +1,9 @@
+import importlib
+import google
+
+# This avoids issues with spawn multiprocessing
+importlib.reload(google)
+
 from hatchet_sdk.clients.rest.models.accept_invite_request import AcceptInviteRequest
 
 # import models into sdk package

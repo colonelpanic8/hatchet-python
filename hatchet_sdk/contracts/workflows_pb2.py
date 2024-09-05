@@ -3,13 +3,6 @@
 # source: workflows.proto
 # Protobuf Python Version: 4.25.1
 """Generated protocol buffer code."""
-
-import importlib
-import google
-
-# This avoids issues with spawn multiprocessing
-importlib.reload(google)
-
 from google.protobuf import descriptor as _descriptor
 from google.protobuf import descriptor_pool as _descriptor_pool
 from google.protobuf import symbol_database as _symbol_database
